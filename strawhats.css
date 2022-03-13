@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,200;1,300;1,600&family=Rubik:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* open menu */
+.toggle {
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    font-size: 30px;
+    background: transparent;
+    border: transparent;
+    color: #EFCF37;
+    transition: all .4s linear;
+    cursor: pointer;
+    animation: zipzap 5s ease-in-out infinite;
+}
+
+.toggle:hover {
+    color: #AD1D21;
+}
+
+@keyframes zipzap {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* nav-menu */
+.nav-bar {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    row-gap: 1fr;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-family: "Rubik", sans-serif;
+    background-color: #358EEA;
+    transition: all 0.3s linear;
+    transform: translate(-100%);
+}
+
+.show-nav-bar {
+    transform: translate(0);
+}
+
+/* nav-menu logo and close button*/
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.close {
+    font-size: 30px;
+    background: transparent;
+    border: transparent;
+    color: #AD1D21;
+    transition: all .4s linear;
+    cursor: pointer;
+}
+
+.close:hover{
+    color: #F30103;
+    transform: rotate(180deg);
+}
+
+.logo-img{
+    justify-content: center;
+    height: 50px;
+}
+
+
+/* nav-pirates */
+
+.pirates a{
+    display: block;
+    font-size: 25px;
+    padding: 15px 25px;
+    color: #EFCF37;
+    transition: all .3s linear;
+}
+
+.pirates a:hover {
+    background-color: #efd03795;
+    color: #358EEA;
+    padding-left: 30px;
+}
+
+/* nav-socials */
+.socials {
+    display: flex;
+    justify-self: center;
+    padding-bottom: 15px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.socials a{
+    margin: 0 5px;
+    color: #AD1D21;
+    transition: all .3s linear;
+    text-decoration: none;
+}
+
+.socials a:hover{
+    color: #ff0000;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .nav-bar {
+      width: 400px;
+    }
+  }

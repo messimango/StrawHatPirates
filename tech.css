@@ -1,0 +1,149 @@
+
+
+
+/*header*/
+
+#luffy1 {
+    display: none;
+}
+
+#zoro1 {
+    display: none;
+}
+
+#nami1 {
+    display: none;
+}
+
+#usopp1 {
+    display: none;
+}
+
+#sanji1 {
+    display: none;
+}
+
+#chopper1 {
+    display: none;
+}
+
+#robin1 {
+    display: none;
+}
+
+#franky1 {
+    display: none;
+}
+
+#brook1 {
+    display: none;
+}
+
+#jinbe1 {
+    display: none;
+}
+
+#sunny1 {
+    display: none;
+}
+
+/*Luffy*/
+
+#Luffy {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Zoro {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Nami {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Usopp {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Sanji {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Chopper {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Robin {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*Franky*/
+
+#Franky {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+#Brook {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Jinbe {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 200px;
+}
+
+@media only screen and (min-width: 800px)
+
+{
+    
+#navbar {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 200px;
+    max-width: 300px;
+    height: 100%;
+
+    background: lightskyblue;
+
+}
+
+
+#nav-list {
+    list-style: none;
+}
+
+#navbar header {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+
+}
+
+
