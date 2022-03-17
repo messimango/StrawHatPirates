@@ -136,6 +136,45 @@ h3, h4 {
 
 
 /* Main Page */
+
+/* Countdown Section */
+
+.countdown {
+    background-color: blue;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-time {
+    color: red;
+}
+
+.time-box h3{
+    color: red;
+}
+
+.time-left {
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: row;
+}
+
+.time-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
 .container {
     display: flex;
     flex-direction: column;
@@ -146,7 +185,8 @@ h3, h4 {
 .character {
     display: flex;
     flex-direction: row;
-    background-color: #358EEA   ;
+    background-color: #358EEA;
+    margin: 20px;
 }
 
 .image {
