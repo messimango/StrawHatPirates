@@ -43,7 +43,7 @@ const endTime = document.querySelector(".end-time")
 const timeLeft = document.querySelector(".time-left")
 const items = document.querySelectorAll(".time-box h3")
 
-let futureDate = new Date(2022,02,27,10,00,0);
+let futureDate = new Date(2022,06,12,10,00,0);
 
 const year = futureDate.getFullYear();
 const month = months[futureDate.getMonth()];
